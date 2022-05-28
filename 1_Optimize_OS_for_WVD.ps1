@@ -58,6 +58,7 @@
   .\Windows_VDOT.ps1 -Optimizations Edge, All -Verbose
   write-host 'AIB Customization: Finished OS Optimizations script'
  
- 
+  Write-Host "Exit code: " $LASTEXITCODE
+
   
  
