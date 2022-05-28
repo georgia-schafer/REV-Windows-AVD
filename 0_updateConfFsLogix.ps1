@@ -43,3 +43,6 @@ if ([version]$downloadedFsLogixVersion.VersionInfo.FileVersion -gt [version]$ins
 $installedFsLogixVersion = Get-Item "C:\Program Files\FSLogix\Apps\frx.exe" | Select-Object VersionInfo
 Write-Host 'AIB Customization: Installed version number is now:' $installedFSLogixVersion.VersionInfo.FileVersion
 Write-Host 'AIB Customization: Finished Fslogix installer'
+
+Write-Host "Exit code: " $LASTEXITCODE
+
